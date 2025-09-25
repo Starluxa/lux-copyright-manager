@@ -1,0 +1,29 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/post.php?post=10&action=edit",
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/luxplugins/auto-footer-copyright-year-updater",
+				"ref": "HEAD",
+				"path": "auto-footer-copyright-year-updater"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "resetData"
+		},
+		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/luxplugins/auto-footer-copyright-year-updater/main/_playground/export.xml"
+			}
+		}
+	]
+}
