@@ -1,0 +1,9 @@
+.gitignore
+.wp-env.json
+package-lock.json
+node_modules/
+src/
+scripts/
+_playground/
+HOW-TO-DEPLOY.md
+README.md
