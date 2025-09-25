@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Full, un-minified source code here: https://github.com/Starluxa/lux-copyright-manager
+Development of this plugin takes place on GitHub. You can find the full, un-minified source code for this release here: https://github.com/Starluxa/lux-copyright-manager/releases/tag/v1.0.0
 
 Display and automatically update your site's copyright date with a block and shortcode.
 
